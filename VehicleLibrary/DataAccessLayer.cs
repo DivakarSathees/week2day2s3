@@ -38,14 +38,6 @@ public class DataAccessLayer
         return vehicles;
     }
 
-    public List<Vehicle> FindVehicles(string keyword)
-    {
-        return vehicles.FindAll(vehicle =>
-            vehicle.Make.IndexOf(keyword, StringComparison.OrdinalIgnoreCase) >= 0 ||
-            vehicle.Model.IndexOf(keyword, StringComparison.OrdinalIgnoreCase) >= 0 ||
-            vehicle.Type.IndexOf(keyword, StringComparison.OrdinalIgnoreCase) >= 0);
-    }
-
     public void DeleteVehicle(int vehicleId)
     {
         Vehicle vehicle = vehicles.Find(v => v.Id == vehicleId);

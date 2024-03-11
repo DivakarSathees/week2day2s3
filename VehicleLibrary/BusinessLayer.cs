@@ -22,6 +22,11 @@ public class BusinessLayer
         dataAccessLayer.EditVehicle(vehicle);
     }
 
+    public List<Vehicle> GetAllVehicles()
+    {
+        return dataAccessLayer.GetAllVehicles();
+    }
+
     public void DeleteVehicle(int vehicleId)
     {
         dataAccessLayer.DeleteVehicle(vehicleId);

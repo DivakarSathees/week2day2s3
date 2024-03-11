@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleApp", "VehicleApp\VehicleApp.csproj", "{BCBB50D3-0FFC-4D06-924C-8538AE478DAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleLibrary", "VehicleLibrary\VehicleLibrary.csproj", "{A847EA6E-B370-4711-BA67-35801B0D3A9C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VehicleApp", "VehicleApp", "{5CAFC4C9-972D-4D25-847E-81DE70D9A340}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject", "VehicleApp\TestProject\TestProject.csproj", "{DAFA0049-E88D-439D-BD0F-152CB0BB8302}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCBB50D3-0FFC-4D06-924C-8538AE478DAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCBB50D3-0FFC-4D06-924C-8538AE478DAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCBB50D3-0FFC-4D06-924C-8538AE478DAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCBB50D3-0FFC-4D06-924C-8538AE478DAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A847EA6E-B370-4711-BA67-35801B0D3A9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A847EA6E-B370-4711-BA67-35801B0D3A9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A847EA6E-B370-4711-BA67-35801B0D3A9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A847EA6E-B370-4711-BA67-35801B0D3A9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAFA0049-E88D-439D-BD0F-152CB0BB8302}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAFA0049-E88D-439D-BD0F-152CB0BB8302}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAFA0049-E88D-439D-BD0F-152CB0BB8302}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAFA0049-E88D-439D-BD0F-152CB0BB8302}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DAFA0049-E88D-439D-BD0F-152CB0BB8302} = {5CAFC4C9-972D-4D25-847E-81DE70D9A340}
+	EndGlobalSection
+EndGlobal

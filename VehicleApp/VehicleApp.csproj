@@ -1,6 +1,8 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
+    <PackageReference Include="NUnit" Version="3.13.3" />
+
     <ProjectReference Include="..\VehicleLibrary\VehicleLibrary.csproj" />
   </ItemGroup>
 
